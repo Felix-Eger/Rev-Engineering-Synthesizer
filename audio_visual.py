@@ -167,7 +167,7 @@ if audio is not None:
     st.markdown("We use spectral features to observe how the frequency of a sound signal is changing and can therefore represent the center of mass of a spectrum. It is basically a weighted median of the spectrum that can be used to understand the brightness of an audio file. By doing so, we can distinguish between two different instruments that play the same key, since the tone quality will differ, which is represented in the spectral centroid. Similarly, the spectral bandwidth measures the difference between the higher and lower frequencies. If the centroid is the center of the spectrum, then the bandwidth is the sum of maximum deviation on both sides. ")
     st.caption("Spectral Bandwidhts")
     st.pyplot(fig_spec_band)
-    #st.caption("RMS")
-    #st.pyplot(fig_rms)
+ 
+    
     
  
